@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "Petrol",
+    "code": "PTR",
+    "color": "#22c55e",
+    "pricePerLiter": 70,
+    "description": "Regular unleaded petrol (92 octane)",
+    "status": "active",
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": "2",
+    "name": "Diesel",
+    "code": "DSL",
+    "color": "#f59e0b",
+    "pricePerLiter": 65,
+    "description": "High-grade diesel for trucks and generators",
+    "status": "active",
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": "3",
+    "name": "Gas (CNG)",
+    "code": "CNG",
+    "color": "#3b82f6",
+    "pricePerLiter": 45,
+    "description": "Compressed Natural Gas for CNG vehicles",
+    "status": "active",
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": "4",
+    "name": "Premium Petrol",
+    "code": "PRE",
+    "color": "#8b5cf6",
+    "pricePerLiter": 80,
+    "description": "Premium unleaded 95 octane for high-performance vehicles",
+    "status": "active",
+    "createdAt": "2024-06-01"
+  },
+  {
+    "id": "5",
+    "name": "Kerosene",
+    "code": "KRS",
+    "color": "#64748b",
+    "pricePerLiter": 55,
+    "description": "Kerosene for heating and industrial use",
+    "status": "inactive",
+    "createdAt": "2024-01-01"
+  }
+]

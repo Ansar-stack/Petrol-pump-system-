@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "username": "admin",
+    "email": "admin@ppms.com",
+    "password": "admin123",
+    "role": "admin",
+    "name": "System Admin",
+    "employeeId": "E001"
+  },
+  {
+    "id": "2",
+    "username": "ahmed.khan",
+    "email": "manager@ppms.com",
+    "password": "manager123",
+    "role": "manager",
+    "name": "Ahmed Khan",
+    "employeeId": "E002"
+  },
+  {
+    "id": "3",
+    "username": "ali.hassan",
+    "email": "operator@ppms.com",
+    "password": "op123",
+    "role": "operator",
+    "name": "Ali Hassan",
+    "employeeId": "E003"
+  },
+  {
+    "id": "4",
+    "username": "omar.farooq",
+    "email": "omar@ppms.com",
+    "password": "omar123",
+    "role": "operator",
+    "name": "Omar Farooq",
+    "employeeId": "E004"
+  },
+  {
+    "id": "5",
+    "username": "khalid.mirzaei",
+    "email": "khalid@ppms.com",
+    "password": "khalid123",
+    "role": "operator",
+    "name": "Khalid Mirzaei",
+    "employeeId": "E006"
+  },
+  {
+    "id": "6",
+    "username": "yusuf.rahimi",
+    "email": "yusuf@ppms.com",
+    "password": "yusuf123",
+    "role": "operator",
+    "name": "Yusuf Rahimi",
+    "employeeId": "E008"
+  },
+  {
+    "id": "7",
+    "username": "nasreen.karimi",
+    "email": "nasreen@ppms.com",
+    "password": "nasreen123",
+    "role": "manager",
+    "name": "Nasreen Karimi",
+    "employeeId": "E009"
+  }
+]

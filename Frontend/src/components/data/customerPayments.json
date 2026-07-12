@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "paymentId": "CPAY-001",
+    "customerId": "1",
+    "amount": 10000,
+    "date": "2026-05-15",
+    "method": "bank_transfer",
+    "notes": "Monthly settlement — Al-Noor Transport"
+  },
+  {
+    "id": "2",
+    "paymentId": "CPAY-002",
+    "customerId": "1",
+    "amount": 8000,
+    "date": "2026-06-01",
+    "method": "bank_transfer",
+    "notes": "Partial payment June"
+  },
+  {
+    "id": "3",
+    "paymentId": "CPAY-003",
+    "customerId": "2",
+    "amount": 5000,
+    "date": "2026-05-20",
+    "method": "cash",
+    "notes": ""
+  },
+  {
+    "id": "4",
+    "paymentId": "CPAY-004",
+    "customerId": "2",
+    "amount": 3500,
+    "date": "2026-06-03",
+    "method": "bank_transfer",
+    "notes": "Weekly settlement"
+  },
+  {
+    "id": "5",
+    "paymentId": "CPAY-005",
+    "customerId": "3",
+    "amount": 3000,
+    "date": "2026-05-10",
+    "method": "cash",
+    "notes": "Partial — still over limit"
+  },
+  {
+    "id": "6",
+    "paymentId": "CPAY-006",
+    "customerId": "4",
+    "amount": 2500,
+    "date": "2026-05-25",
+    "method": "cash",
+    "notes": "City Taxis weekly payment"
+  },
+  {
+    "id": "7",
+    "paymentId": "CPAY-007",
+    "customerId": "4",
+    "amount": 2000,
+    "date": "2026-06-05",
+    "method": "card",
+    "notes": ""
+  },
+  {
+    "id": "8",
+    "paymentId": "CPAY-008",
+    "customerId": "5",
+    "amount": 15000,
+    "date": "2026-05-18",
+    "method": "bank_transfer",
+    "notes": "Ariana Construction — large payment"
+  },
+  {
+    "id": "9",
+    "paymentId": "CPAY-009",
+    "customerId": "5",
+    "amount": 12000,
+    "date": "2026-06-02",
+    "method": "bank_transfer",
+    "notes": ""
+  },
+  {
+    "id": "10",
+    "paymentId": "CPAY-010",
+    "customerId": "7",
+    "amount": 25000,
+    "date": "2026-05-28",
+    "method": "bank_transfer",
+    "notes": "Government quarterly payment — Ministry of Public Works"
+  },
+  {
+    "id": "11",
+    "paymentId": "CPAY-011",
+    "customerId": "8",
+    "amount": 5000,
+    "date": "2026-06-01",
+    "method": "cash",
+    "notes": "Seasonal payment — harvest income"
+  },
+  {
+    "id": "12",
+    "paymentId": "CPAY-012",
+    "customerId": "10",
+    "amount": 1000,
+    "date": "2026-06-04",
+    "method": "cash",
+    "notes": ""
+  },
+  {
+    "id": "13",
+    "paymentId": "CPAY-013",
+    "customerId": "12",
+    "amount": 8000,
+    "date": "2026-05-30",
+    "method": "bank_transfer",
+    "notes": "Rahimi Brothers — bulk order payment"
+  },
+  {
+    "id": "14",
+    "paymentId": "CPAY-014",
+    "customerId": "13",
+    "amount": 4000,
+    "date": "2026-06-06",
+    "method": "cash",
+    "notes": "Herat Steel — generator fuel"
+  }
+]

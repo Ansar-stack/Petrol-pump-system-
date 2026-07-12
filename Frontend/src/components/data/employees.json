@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "employeeId": "E001",
+    "fullName": "System Admin",
+    "phone": "0701234567",
+    "idNumber": "ID-001",
+    "position": "System Administrator",
+    "salary": 8000,
+    "hireDate": "2020-01-01",
+    "status": "active",
+    "role": "admin"
+  },
+  {
+    "id": "2",
+    "employeeId": "E002",
+    "fullName": "Ahmed Khan",
+    "phone": "0707654321",
+    "idNumber": "ID-002",
+    "position": "Operations Manager",
+    "salary": 6500,
+    "hireDate": "2020-06-15",
+    "status": "active",
+    "role": "manager"
+  },
+  {
+    "id": "3",
+    "employeeId": "E003",
+    "fullName": "Ali Hassan",
+    "phone": "0709876543",
+    "idNumber": "ID-003",
+    "position": "Senior Pump Operator",
+    "salary": 3500,
+    "hireDate": "2021-03-01",
+    "status": "active",
+    "role": "operator"
+  },
+  {
+    "id": "4",
+    "employeeId": "E004",
+    "fullName": "Omar Farooq",
+    "phone": "0703456789",
+    "idNumber": "ID-004",
+    "position": "Pump Operator",
+    "salary": 3000,
+    "hireDate": "2021-08-01",
+    "status": "active",
+    "role": "operator"
+  },
+  {
+    "id": "5",
+    "employeeId": "E005",
+    "fullName": "Sara Ahmed",
+    "phone": "0702345678",
+    "idNumber": "ID-005",
+    "position": "Cashier",
+    "salary": 3200,
+    "hireDate": "2022-02-01",
+    "status": "inactive",
+    "role": "operator"
+  },
+  {
+    "id": "6",
+    "employeeId": "E006",
+    "fullName": "Khalid Mirzaei",
+    "phone": "0704567890",
+    "idNumber": "ID-006",
+    "position": "Pump Operator",
+    "salary": 3000,
+    "hireDate": "2022-07-15",
+    "status": "active",
+    "role": "operator"
+  },
+  {
+    "id": "7",
+    "employeeId": "E007",
+    "fullName": "Fatima Noori",
+    "phone": "0705678901",
+    "idNumber": "ID-007",
+    "position": "Assistant Cashier",
+    "salary": 2800,
+    "hireDate": "2023-01-10",
+    "status": "active",
+    "role": "operator"
+  },
+  {
+    "id": "8",
+    "employeeId": "E008",
+    "fullName": "Yusuf Rahimi",
+    "phone": "0706789012",
+    "idNumber": "ID-008",
+    "position": "Night Shift Operator",
+    "salary": 3200,
+    "hireDate": "2023-05-20",
+    "status": "active",
+    "role": "operator"
+  },
+  {
+    "id": "9",
+    "employeeId": "E009",
+    "fullName": "Nasreen Karimi",
+    "phone": "0708901234",
+    "idNumber": "ID-009",
+    "position": "Accountant",
+    "salary": 4500,
+    "hireDate": "2023-09-01",
+    "status": "active",
+    "role": "manager"
+  },
+  {
+    "id": "10",
+    "employeeId": "E010",
+    "fullName": "Dawoud Sultani",
+    "phone": "0710012345",
+    "idNumber": "ID-010",
+    "position": "Pump Operator",
+    "salary": 3000,
+    "hireDate": "2024-03-15",
+    "status": "active",
+    "role": "operator"
+  }
+]

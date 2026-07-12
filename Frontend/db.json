@@ -1,0 +1,705 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@ppms.com",
+      "password": "admin123",
+      "role": "admin",
+      "name": "System Admin",
+      "employeeId": "E001"
+    },
+    {
+      "id": "2",
+      "username": "manager",
+      "email": "manager@ppms.com",
+      "password": "manager123",
+      "role": "manager",
+      "name": "Ahmed Khan",
+      "employeeId": "E002"
+    },
+    {
+      "id": "3",
+      "username": "operator",
+      "email": "operator@ppms.com",
+      "password": "op123",
+      "role": "operator",
+      "name": "Ali Hassan",
+      "employeeId": "E003"
+    }
+  ],
+  "fuelTypes": [
+    {
+      "id": "1",
+      "name": "Petrol",
+      "code": "PTR",
+      "color": "#22c55e",
+      "pricePerLiter": 1.85,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Diesel",
+      "code": "DSL",
+      "color": "#f59e0b",
+      "pricePerLiter": 1.65,
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Gas",
+      "code": "GAS",
+      "color": "#3b82f6",
+      "pricePerLiter": 1.2,
+      "status": "active"
+    }
+  ],
+  "tanks": [
+    {
+      "id": "1",
+      "name": "Tank A1",
+      "fuelTypeId": "1",
+      "capacity": 10000,
+      "currentStock": 7500,
+      "minimumLevel": 1000,
+      "status": "active",
+      "location": "Zone A"
+    },
+    {
+      "id": "2",
+      "name": "Tank A2",
+      "fuelTypeId": "1",
+      "capacity": 10000,
+      "currentStock": 850,
+      "minimumLevel": 1000,
+      "status": "active",
+      "location": "Zone A"
+    },
+    {
+      "id": "3",
+      "name": "Tank B1",
+      "fuelTypeId": "2",
+      "capacity": 15000,
+      "currentStock": 9200,
+      "minimumLevel": 1500,
+      "status": "active",
+      "location": "Zone B"
+    },
+    {
+      "id": "4",
+      "name": "Tank C1",
+      "fuelTypeId": "3",
+      "capacity": 8000,
+      "currentStock": 5500,
+      "minimumLevel": 800,
+      "status": "maintenance",
+      "location": "Zone C"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "employeeId": "E001",
+      "fullName": "System Admin",
+      "phone": "0501234567",
+      "idNumber": "ID001",
+      "position": "System Administrator",
+      "salary": 5000,
+      "hireDate": "2020-01-01",
+      "status": "active",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "employeeId": "E002",
+      "fullName": "Ahmed Khan",
+      "phone": "0507654321",
+      "idNumber": "ID002",
+      "position": "Operations Manager",
+      "salary": 4000,
+      "hireDate": "2020-06-15",
+      "status": "active",
+      "role": "manager"
+    },
+    {
+      "id": "3",
+      "employeeId": "E003",
+      "fullName": "Ali Hassan",
+      "phone": "0509876543",
+      "idNumber": "ID003",
+      "position": "Pump Operator",
+      "salary": 2500,
+      "hireDate": "2021-03-01",
+      "status": "active",
+      "role": "operator"
+    },
+    {
+      "id": "4",
+      "employeeId": "E004",
+      "fullName": "Omar Farooq",
+      "phone": "0503456789",
+      "idNumber": "ID004",
+      "position": "Pump Operator",
+      "salary": 2500,
+      "hireDate": "2021-08-01",
+      "status": "active",
+      "role": "operator"
+    },
+    {
+      "id": "5",
+      "employeeId": "E005",
+      "fullName": "Sara Ahmed",
+      "phone": "0502345678",
+      "idNumber": "ID005",
+      "position": "Cashier",
+      "salary": 2800,
+      "hireDate": "2022-02-01",
+      "status": "inactive",
+      "role": "operator"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "customerId": "C001",
+      "fullName": "Al-Noor Transport",
+      "phone": "0501111111",
+      "idNumber": "CR001",
+      "type": "credit",
+      "creditBalance": 3500,
+      "creditLimit": 10000,
+      "status": "active",
+      "notes": "Fleet company - 20 trucks"
+    },
+    {
+      "id": "2",
+      "customerId": "C002",
+      "fullName": "Gulf Logistics LLC",
+      "phone": "0502222222",
+      "idNumber": "CR002",
+      "type": "credit",
+      "creditBalance": 1200,
+      "creditLimit": 5000,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "id": "3",
+      "customerId": "C003",
+      "fullName": "Hassan Al-Rashid",
+      "phone": "0503333333",
+      "idNumber": "ID006",
+      "type": "credit",
+      "creditBalance": 8900,
+      "creditLimit": 8000,
+      "status": "blocked",
+      "notes": "Exceeded credit limit"
+    },
+    {
+      "id": "4",
+      "customerId": "C004",
+      "fullName": "City Taxis",
+      "phone": "0504444444",
+      "idNumber": "CR004",
+      "type": "credit",
+      "creditBalance": 450,
+      "creditLimit": 3000,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "id": "5",
+      "customerId": "C005",
+      "fullName": "Walk-in Customer",
+      "phone": "",
+      "idNumber": "",
+      "type": "cash",
+      "creditBalance": 0,
+      "creditLimit": 0,
+      "status": "active",
+      "notes": "Default cash customer"
+    }
+  ],
+  "fuelPrices": [
+    {
+      "id": "1",
+      "fuelTypeId": "1",
+      "pricePerLiter": 1.85,
+      "effectiveDate": "2024-01-01",
+      "setBy": "admin",
+      "notes": ""
+    },
+    {
+      "id": "2",
+      "fuelTypeId": "2",
+      "pricePerLiter": 1.65,
+      "effectiveDate": "2024-01-01",
+      "setBy": "admin",
+      "notes": ""
+    },
+    {
+      "id": "3",
+      "fuelTypeId": "3",
+      "pricePerLiter": 1.2,
+      "effectiveDate": "2024-01-01",
+      "setBy": "admin",
+      "notes": ""
+    }
+  ],
+  "purchases": [
+    {
+      "id": "1",
+      "purchaseId": "PUR-001",
+      "supplierName": "National Fuel Co.",
+      "fuelTypeId": "1",
+      "quantity": 5000,
+      "pricePerLiter": 1.5,
+      "totalAmount": 7500,
+      "tankId": "1",
+      "date": "2026-05-01",
+      "paymentStatus": "paid",
+      "notes": "Regular delivery"
+    },
+    {
+      "id": "2",
+      "purchaseId": "PUR-002",
+      "supplierName": "Gulf Energy Supply",
+      "fuelTypeId": "2",
+      "quantity": 8000,
+      "pricePerLiter": 1.3,
+      "totalAmount": 10400,
+      "tankId": "3",
+      "date": "2026-05-03",
+      "paymentStatus": "paid",
+      "notes": ""
+    },
+    {
+      "id": "3",
+      "purchaseId": "PUR-003",
+      "supplierName": "National Fuel Co.",
+      "fuelTypeId": "1",
+      "quantity": 3000,
+      "pricePerLiter": 1.5,
+      "totalAmount": 4500,
+      "tankId": "2",
+      "date": "2026-05-10",
+      "paymentStatus": "partial",
+      "notes": "Urgent restocking"
+    },
+    {
+      "id": "4",
+      "purchaseId": "PUR-004",
+      "supplierName": "Arab Gas Trading",
+      "fuelTypeId": "3",
+      "quantity": 4000,
+      "pricePerLiter": 1,
+      "totalAmount": 4000,
+      "tankId": "4",
+      "date": "2026-05-12",
+      "paymentStatus": "unpaid",
+      "notes": ""
+    },
+    {
+      "id": "5",
+      "purchaseId": "PUR-005",
+      "supplierName": "Gulf Energy Supply",
+      "fuelTypeId": "2",
+      "quantity": 5000,
+      "pricePerLiter": 1.3,
+      "totalAmount": 6500,
+      "tankId": "3",
+      "date": "2026-05-15",
+      "paymentStatus": "paid",
+      "notes": ""
+    }
+  ],
+  "sales": [
+    {
+      "id": "1",
+      "transactionId": "TXN-001",
+      "pumpNumber": "P1",
+      "fuelTypeId": "1",
+      "customerType": "cash",
+      "customerId": null,
+      "customerName": "Walk-in",
+      "liters": 30,
+      "pricePerLiter": 1.85,
+      "totalAmount": 55.5,
+      "paymentMethod": "cash",
+      "transactionType": "retail",
+      "employeeId": "3",
+      "date": "2026-05-19T08:30:00",
+      "notes": ""
+    },
+    {
+      "id": "2",
+      "transactionId": "TXN-002",
+      "pumpNumber": "P2",
+      "fuelTypeId": "2",
+      "customerType": "credit",
+      "customerId": "1",
+      "customerName": "Al-Noor Transport",
+      "liters": 200,
+      "pricePerLiter": 1.65,
+      "totalAmount": 330,
+      "paymentMethod": "credit",
+      "transactionType": "fleet",
+      "employeeId": "3",
+      "date": "2026-05-19T09:15:00",
+      "notes": ""
+    },
+    {
+      "id": "3",
+      "transactionId": "TXN-003",
+      "pumpNumber": "P1",
+      "fuelTypeId": "1",
+      "customerType": "cash",
+      "customerId": null,
+      "customerName": "Walk-in",
+      "liters": 50,
+      "pricePerLiter": 1.85,
+      "totalAmount": 92.5,
+      "paymentMethod": "card",
+      "transactionType": "retail",
+      "employeeId": "4",
+      "date": "2026-05-19T10:00:00",
+      "notes": ""
+    },
+    {
+      "id": "4",
+      "transactionId": "TXN-004",
+      "pumpNumber": "P3",
+      "fuelTypeId": "2",
+      "customerType": "credit",
+      "customerId": "2",
+      "customerName": "Gulf Logistics LLC",
+      "liters": 150,
+      "pricePerLiter": 1.65,
+      "totalAmount": 247.5,
+      "paymentMethod": "credit",
+      "transactionType": "fleet",
+      "employeeId": "3",
+      "date": "2026-05-18T14:30:00",
+      "notes": ""
+    },
+    {
+      "id": "5",
+      "transactionId": "TXN-005",
+      "pumpNumber": "P2",
+      "fuelTypeId": "1",
+      "customerType": "cash",
+      "customerId": null,
+      "customerName": "Walk-in",
+      "liters": 25,
+      "pricePerLiter": 1.85,
+      "totalAmount": 46.25,
+      "paymentMethod": "cash",
+      "transactionType": "retail",
+      "employeeId": "4",
+      "date": "2026-05-18T16:00:00",
+      "notes": ""
+    },
+    {
+      "id": "6",
+      "transactionId": "TXN-006",
+      "pumpNumber": "P1",
+      "fuelTypeId": "3",
+      "customerType": "cash",
+      "customerId": null,
+      "customerName": "Walk-in",
+      "liters": 40,
+      "pricePerLiter": 1.2,
+      "totalAmount": 48,
+      "paymentMethod": "cash",
+      "transactionType": "retail",
+      "employeeId": "3",
+      "date": "2026-05-17T11:00:00",
+      "notes": ""
+    },
+    {
+      "id": "7",
+      "transactionId": "TXN-007",
+      "pumpNumber": "P2",
+      "fuelTypeId": "2",
+      "customerType": "credit",
+      "customerId": "4",
+      "customerName": "City Taxis",
+      "liters": 80,
+      "pricePerLiter": 1.65,
+      "totalAmount": 132,
+      "paymentMethod": "credit",
+      "transactionType": "fleet",
+      "employeeId": "3",
+      "date": "2026-05-17T13:30:00",
+      "notes": ""
+    },
+    {
+      "id": "8",
+      "transactionId": "TXN-008",
+      "pumpNumber": "P3",
+      "fuelTypeId": "1",
+      "customerType": "cash",
+      "customerId": null,
+      "customerName": "Walk-in",
+      "liters": 60,
+      "pricePerLiter": 1.85,
+      "totalAmount": 111,
+      "paymentMethod": "cash",
+      "transactionType": "retail",
+      "employeeId": "4",
+      "date": "2026-05-16T09:00:00",
+      "notes": ""
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1",
+      "expenseId": "EXP-001",
+      "type": "Electricity",
+      "amount": 800,
+      "date": "2026-05-01",
+      "description": "Monthly electricity bill",
+      "addedBy": "admin"
+    },
+    {
+      "id": "2",
+      "expenseId": "EXP-002",
+      "type": "Salaries",
+      "amount": 16800,
+      "date": "2026-05-01",
+      "description": "May 2026 staff salaries",
+      "addedBy": "admin"
+    },
+    {
+      "id": "3",
+      "expenseId": "EXP-003",
+      "type": "Rent",
+      "amount": 3000,
+      "date": "2026-05-01",
+      "description": "Monthly rent",
+      "addedBy": "admin"
+    },
+    {
+      "id": "4",
+      "expenseId": "EXP-004",
+      "type": "Maintenance",
+      "amount": 450,
+      "date": "2026-05-08",
+      "description": "Pump P2 valve replacement",
+      "addedBy": "manager"
+    },
+    {
+      "id": "5",
+      "expenseId": "EXP-005",
+      "type": "Internet",
+      "amount": 150,
+      "date": "2026-05-10",
+      "description": "Monthly internet subscription",
+      "addedBy": "admin"
+    },
+    {
+      "id": "6",
+      "expenseId": "EXP-006",
+      "type": "Transport",
+      "amount": 200,
+      "date": "2026-05-12",
+      "description": "Delivery logistics",
+      "addedBy": "manager"
+    }
+  ],
+  "losses": [
+    {
+      "id": "1",
+      "lossId": "LOSS-001",
+      "lossType": "Fuel Leakage",
+      "amount": 150,
+      "date": "2026-05-05",
+      "description": "Minor leakage in Tank A2 pipe",
+      "fuelTypeId": "1",
+      "addedBy": "manager"
+    },
+    {
+      "id": "2",
+      "lossId": "LOSS-002",
+      "lossType": "Pump Damage",
+      "amount": 300,
+      "date": "2026-05-08",
+      "description": "Pump P2 meter damage",
+      "fuelTypeId": null,
+      "addedBy": "manager"
+    },
+    {
+      "id": "3",
+      "lossId": "LOSS-003",
+      "lossType": "Price Difference",
+      "amount": 200,
+      "date": "2026-05-15",
+      "description": "Price adjustment loss on Petrol batch",
+      "fuelTypeId": "1",
+      "addedBy": "admin"
+    }
+  ],
+  "cashHandovers": [
+    {
+      "id": "1",
+      "handoverId": "HND-001",
+      "employeeId": "3",
+      "shiftType": "Morning",
+      "cashAmount": 850,
+      "date": "2026-05-19",
+      "status": "pending",
+      "storageId": null,
+      "confirmedBy": null,
+      "notes": "Morning shift collection"
+    },
+    {
+      "id": "2",
+      "handoverId": "HND-002",
+      "employeeId": "4",
+      "shiftType": "Evening",
+      "cashAmount": 1200,
+      "date": "2026-05-18",
+      "status": "confirmed",
+      "storageId": "1",
+      "confirmedBy": "manager",
+      "notes": ""
+    },
+    {
+      "id": "3",
+      "handoverId": "HND-003",
+      "employeeId": "3",
+      "shiftType": "Morning",
+      "cashAmount": 650,
+      "date": "2026-05-18",
+      "status": "confirmed",
+      "storageId": "2",
+      "confirmedBy": "manager",
+      "notes": ""
+    },
+    {
+      "id": "4",
+      "handoverId": "HND-004",
+      "employeeId": "4",
+      "shiftType": "Evening",
+      "cashAmount": 900,
+      "date": "2026-05-17",
+      "status": "rejected",
+      "storageId": null,
+      "confirmedBy": "manager",
+      "notes": "Amount mismatch"
+    }
+  ],
+  "cashStorages": [
+    {
+      "id": "1",
+      "storageId": "STR-001",
+      "name": "Main Safe",
+      "type": "Office Safe",
+      "balance": 15200,
+      "currency": "USD",
+      "notes": "Primary cash storage",
+      "lastUpdated": "2026-05-19"
+    },
+    {
+      "id": "2",
+      "storageId": "STR-002",
+      "name": "Bank Account - NBK",
+      "type": "Bank Account",
+      "balance": 48500,
+      "currency": "USD",
+      "notes": "National Bank of Kuwait",
+      "lastUpdated": "2026-05-18"
+    },
+    {
+      "id": "3",
+      "storageId": "STR-003",
+      "name": "Exchange Shop",
+      "type": "Sarafi",
+      "balance": 5000,
+      "currency": "USD",
+      "notes": "Al-Ameen Exchange",
+      "lastUpdated": "2026-05-15"
+    },
+    {
+      "id": "4",
+      "storageId": "STR-004",
+      "name": "Treasury Vault",
+      "type": "Treasury",
+      "balance": 25000,
+      "currency": "USD",
+      "notes": "Long-term reserve",
+      "lastUpdated": "2026-05-10"
+    }
+  ],
+  "supplierPayments": [
+    {
+      "id": "1",
+      "paymentId": "PAY-001",
+      "supplierName": "National Fuel Co.",
+      "amount": 7500,
+      "date": "2026-05-05",
+      "paymentMethod": "bank_transfer",
+      "purchaseId": "1",
+      "notes": "Full payment for PUR-001"
+    },
+    {
+      "id": "2",
+      "paymentId": "PAY-002",
+      "supplierName": "Gulf Energy Supply",
+      "amount": 10400,
+      "date": "2026-05-07",
+      "paymentMethod": "bank_transfer",
+      "purchaseId": "2",
+      "notes": "Full payment for PUR-002"
+    },
+    {
+      "id": "3",
+      "paymentId": "PAY-003",
+      "supplierName": "National Fuel Co.",
+      "amount": 2000,
+      "date": "2026-05-14",
+      "paymentMethod": "cash",
+      "purchaseId": "3",
+      "notes": "Partial payment for PUR-003"
+    },
+    {
+      "id": "4",
+      "paymentId": "PAY-004",
+      "supplierName": "Gulf Energy Supply",
+      "amount": 6500,
+      "date": "2026-05-17",
+      "paymentMethod": "bank_transfer",
+      "purchaseId": "5",
+      "notes": "Full payment for PUR-005"
+    }
+  ],
+  "customerPayments": [
+    {
+      "id": "1",
+      "paymentId": "CPAY-001",
+      "customerId": "1",
+      "amount": 2000,
+      "date": "2026-05-10",
+      "method": "bank_transfer",
+      "notes": "Partial payment from Al-Noor"
+    },
+    {
+      "id": "2",
+      "paymentId": "CPAY-002",
+      "customerId": "2",
+      "amount": 500,
+      "date": "2026-05-12",
+      "method": "cash",
+      "notes": ""
+    },
+    {
+      "id": "3",
+      "paymentId": "CPAY-003",
+      "customerId": "4",
+      "amount": 300,
+      "date": "2026-05-14",
+      "method": "cash",
+      "notes": "Payment from City Taxis"
+    }
+  ]
+}

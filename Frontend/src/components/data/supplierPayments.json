@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "paymentId": "SPAY-001",
+    "supplierName": "National Fuel Co.",
+    "amount": 480000,
+    "date": "2026-04-04",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "1",
+    "notes": "Full payment for PUR-001"
+  },
+  {
+    "id": "2",
+    "paymentId": "SPAY-002",
+    "supplierName": "Gulf Energy Supply",
+    "amount": 672000,
+    "date": "2026-04-07",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "2",
+    "notes": "Full payment for PUR-002"
+  },
+  {
+    "id": "3",
+    "paymentId": "SPAY-003",
+    "supplierName": "National Fuel Co.",
+    "amount": 300000,
+    "date": "2026-04-17",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "3",
+    "notes": "Full payment for PUR-003"
+  },
+  {
+    "id": "4",
+    "paymentId": "SPAY-004",
+    "supplierName": "Arab Gas Trading",
+    "amount": 222000,
+    "date": "2026-04-20",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "4",
+    "notes": "Full payment for PUR-004"
+  },
+  {
+    "id": "5",
+    "paymentId": "SPAY-005",
+    "supplierName": "Gulf Energy Supply",
+    "amount": 448000,
+    "date": "2026-04-27",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "5",
+    "notes": "Full payment for PUR-005"
+  },
+  {
+    "id": "6",
+    "paymentId": "SPAY-006",
+    "supplierName": "National Fuel Co.",
+    "amount": 610000,
+    "date": "2026-05-03",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "6",
+    "notes": "Full payment for PUR-006"
+  },
+  {
+    "id": "7",
+    "paymentId": "SPAY-007",
+    "supplierName": "Gulf Energy Supply",
+    "amount": 855000,
+    "date": "2026-05-06",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "7",
+    "notes": "Full payment for PUR-007"
+  },
+  {
+    "id": "8",
+    "paymentId": "SPAY-008",
+    "supplierName": "Premium Fuels Ltd.",
+    "amount": 280000,
+    "date": "2026-05-12",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "8",
+    "notes": "Full payment for PUR-008"
+  },
+  {
+    "id": "9",
+    "paymentId": "SPAY-009",
+    "supplierName": "National Fuel Co.",
+    "amount": 372000,
+    "date": "2026-05-20",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "9",
+    "notes": "Full payment for PUR-009"
+  },
+  {
+    "id": "10",
+    "paymentId": "SPAY-010",
+    "supplierName": "Gulf Energy Supply",
+    "amount": 285000,
+    "date": "2026-05-25",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "10",
+    "notes": "Partial payment for PUR-010 — half advance"
+  },
+  {
+    "id": "11",
+    "paymentId": "SPAY-011",
+    "supplierName": "Arab Gas Trading",
+    "amount": 190000,
+    "date": "2026-06-03",
+    "paymentMethod": "bank_transfer",
+    "purchaseId": "11",
+    "notes": "Full payment for PUR-011"
+  }
+]

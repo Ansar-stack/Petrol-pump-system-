@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "storageId": "STR-001",
+    "name": "Main Safe",
+    "type": "Office Safe",
+    "balance": 48350,
+    "currency": "AFN",
+    "notes": "Primary on-site cash safe",
+    "lastUpdated": "2026-06-08"
+  },
+  {
+    "id": "2",
+    "storageId": "STR-002",
+    "name": "Bank Account - NBK",
+    "type": "Bank Account",
+    "balance": 185000,
+    "currency": "AFN",
+    "notes": "National Bank of Afghanistan — current account",
+    "lastUpdated": "2026-06-07"
+  },
+  {
+    "id": "3",
+    "storageId": "STR-003",
+    "name": "Al-Ameen Exchange",
+    "type": "Sarafi",
+    "balance": 12500,
+    "currency": "AFN",
+    "notes": "Hawala partner for urgent payments",
+    "lastUpdated": "2026-06-05"
+  },
+  {
+    "id": "4",
+    "storageId": "STR-004",
+    "name": "Treasury Vault",
+    "type": "Treasury",
+    "balance": 75000,
+    "currency": "AFN",
+    "notes": "Long-term reserve — not for daily operations",
+    "lastUpdated": "2026-06-01"
+  },
+  {
+    "id": "5",
+    "storageId": "STR-005",
+    "name": "Petty Cash Box",
+    "type": "Office Safe",
+    "balance": 4200,
+    "currency": "AFN",
+    "notes": "Daily petty cash for small expenses",
+    "lastUpdated": "2026-06-09"
+  }
+]

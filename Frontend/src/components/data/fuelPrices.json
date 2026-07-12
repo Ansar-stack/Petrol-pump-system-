@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "fuelTypeId": "1",
+    "pricePerLiter": 62,
+    "effectiveDate": "2024-01-01",
+    "setBy": "admin",
+    "notes": "Initial price"
+  },
+  {
+    "id": "2",
+    "fuelTypeId": "2",
+    "pricePerLiter": 57,
+    "effectiveDate": "2024-01-01",
+    "setBy": "admin",
+    "notes": "Initial price"
+  },
+  {
+    "id": "3",
+    "fuelTypeId": "3",
+    "pricePerLiter": 40,
+    "effectiveDate": "2024-01-01",
+    "setBy": "admin",
+    "notes": "Initial price"
+  },
+  {
+    "id": "4",
+    "fuelTypeId": "1",
+    "pricePerLiter": 66,
+    "effectiveDate": "2025-01-01",
+    "setBy": "admin",
+    "notes": "Q1 2025 adjustment"
+  },
+  {
+    "id": "5",
+    "fuelTypeId": "2",
+    "pricePerLiter": 61,
+    "effectiveDate": "2025-01-01",
+    "setBy": "admin",
+    "notes": "Q1 2025 adjustment"
+  },
+  {
+    "id": "6",
+    "fuelTypeId": "1",
+    "pricePerLiter": 70,
+    "effectiveDate": "2026-01-01",
+    "setBy": "admin",
+    "notes": "Current price — Jan 2026"
+  },
+  {
+    "id": "7",
+    "fuelTypeId": "2",
+    "pricePerLiter": 65,
+    "effectiveDate": "2026-01-01",
+    "setBy": "admin",
+    "notes": "Current price — Jan 2026"
+  },
+  {
+    "id": "8",
+    "fuelTypeId": "3",
+    "pricePerLiter": 45,
+    "effectiveDate": "2026-01-01",
+    "setBy": "admin",
+    "notes": "Current price — Jan 2026"
+  },
+  {
+    "id": "9",
+    "fuelTypeId": "4",
+    "pricePerLiter": 80,
+    "effectiveDate": "2026-06-01",
+    "setBy": "admin",
+    "notes": "Premium petrol launch price"
+  }
+]

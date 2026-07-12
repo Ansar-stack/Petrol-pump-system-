@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Tank A1 — Petrol Main",
+    "fuelTypeId": "1",
+    "capacity": 25000,
+    "currentStock": 14800,
+    "minimumLevel": 2000,
+    "status": "active",
+    "location": "Zone A — North Side"
+  },
+  {
+    "id": "2",
+    "name": "Tank A2 — Petrol Reserve",
+    "fuelTypeId": "1",
+    "capacity": 15000,
+    "currentStock": 8200,
+    "minimumLevel": 1500,
+    "status": "active",
+    "location": "Zone A — North Side"
+  },
+  {
+    "id": "3",
+    "name": "Tank B1 — Diesel Main",
+    "fuelTypeId": "2",
+    "capacity": 30000,
+    "currentStock": 19500,
+    "minimumLevel": 3000,
+    "status": "active",
+    "location": "Zone B — South Side"
+  },
+  {
+    "id": "4",
+    "name": "Tank B2 — Diesel Reserve",
+    "fuelTypeId": "2",
+    "capacity": 20000,
+    "currentStock": 1800,
+    "minimumLevel": 2000,
+    "status": "active",
+    "location": "Zone B — South Side"
+  },
+  {
+    "id": "5",
+    "name": "Tank C1 — CNG Storage",
+    "fuelTypeId": "3",
+    "capacity": 10000,
+    "currentStock": 6400,
+    "minimumLevel": 800,
+    "status": "active",
+    "location": "Zone C — East Wing"
+  },
+  {
+    "id": "6",
+    "name": "Tank D1 — Premium Petrol",
+    "fuelTypeId": "4",
+    "capacity": 8000,
+    "currentStock": 3100,
+    "minimumLevel": 500,
+    "status": "active",
+    "location": "Zone D — VIP Lane"
+  },
+  {
+    "id": "7",
+    "name": "Tank A3 — Petrol Overflow",
+    "fuelTypeId": "1",
+    "capacity": 10000,
+    "currentStock": 0,
+    "minimumLevel": 1000,
+    "status": "maintenance",
+    "location": "Zone A — North Side"
+  }
+]

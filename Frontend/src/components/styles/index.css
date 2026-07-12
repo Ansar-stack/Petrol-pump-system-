@@ -1,0 +1,169 @@
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.375rem;
+    /* Light mode - clean professional */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 10%;
+    --primary: 183 76% 26%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 20% 94%;
+    --secondary-foreground: 215 25% 20%;
+    --muted: 210 20% 94%;
+    --muted-foreground: 215 15% 45%;
+    --accent: 210 18% 92%;
+    --accent-foreground: 215 25% 18%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 183 76% 26%;
+    --success: 142 72% 29%;
+    --warning: 38 92% 50%;
+    --info: 199 89% 38%;
+    --chart-1: 183 76% 26%;
+    --chart-2: 183 60% 40%;
+    --chart-3: 22 85% 52%;
+    --chart-4: 142 72% 29%;
+    --chart-5: 280 60% 50%;
+    --sidebar-background: 210 20% 96%;
+    --sidebar-foreground: 215 25% 12%;
+    --sidebar-primary: 183 76% 38%;
+    --sidebar-primary-foreground: 215 25% 8%;
+    --sidebar-accent: 210 18% 92%;
+    --sidebar-accent-foreground: 215 25% 18%;
+    --sidebar-border: 214 18% 86%;
+    --sidebar-ring: 183 76% 35%;
+    --shadow-card:
+      0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px -1px rgba(0, 0, 0, 0.06);
+    --shadow-hover: 0 4px 12px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .dark {
+    --background: 215 28% 8%;
+    --foreground: 210 20% 92%;
+    --card: 215 28% 11%;
+    --card-foreground: 210 20% 92%;
+    --popover: 215 28% 13%;
+    --popover-foreground: 210 20% 92%;
+    --primary: 183 76% 45%;
+    --primary-foreground: 215 28% 8%;
+    --secondary: 215 28% 16%;
+    --secondary-foreground: 210 20% 88%;
+    --muted: 215 28% 16%;
+    --muted-foreground: 215 15% 58%;
+    --accent: 215 28% 14%;
+    --accent-foreground: 210 20% 85%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 28% 20%;
+    --input: 215 28% 18%;
+    --ring: 183 76% 45%;
+    --success: 142 62% 38%;
+    --warning: 38 92% 50%;
+    --info: 199 89% 48%;
+    --chart-1: 183 76% 45%;
+    --chart-2: 183 60% 55%;
+    --chart-3: 22 85% 58%;
+    --chart-4: 142 62% 44%;
+    --chart-5: 280 60% 60%;
+    --sidebar-background: 215 30% 7%;
+    --sidebar-foreground: 210 20% 85%;
+    --sidebar-primary: 183 76% 45%;
+    --sidebar-primary-foreground: 215 28% 8%;
+    --sidebar-accent: 215 28% 14%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 215 28% 16%;
+    --sidebar-ring: 183 76% 45%;
+    --shadow-card:
+      0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.2);
+    --shadow-hover: 0 4px 12px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 3px;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@layer utilities {
+  .status-active {
+    @apply bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400;
+  }
+  .status-inactive {
+    @apply bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400;
+  }
+  .status-suspended {
+    @apply bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400;
+  }
+  .status-blocked {
+    @apply bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400;
+  }
+  .status-pending {
+    @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400;
+  }
+  .status-confirmed {
+    @apply bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400;
+  }
+  .status-rejected {
+    @apply bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400;
+  }
+  .status-paid {
+    @apply bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400;
+  }
+  .status-partial {
+    @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400;
+  }
+  .status-unpaid {
+    @apply bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400;
+  }
+
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+    .print-only {
+      display: block !important;
+    }
+    body {
+      background: white !important;
+      color: black !important;
+    }
+    .sidebar,
+    nav,
+    header {
+      display: none !important;
+    }
+  }
+
+  .print-only {
+    display: none;
+  }
+}
