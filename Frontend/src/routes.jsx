@@ -8,6 +8,7 @@ import DashboardPage from "@/pages/DashboardPage";
 import EmployeesPage from "@/pages/EmployeesPage";
 import EmployeeSalesPage from "@/pages/EmployeeSalesPage";
 import ExpensesPage from "@/pages/ExpensesPage";
+
 import FuelTypesPage from "@/pages/fuel/FuelTypesPage";
 import PurchasesPage from "@/pages/fuel/PurchasesPage";
 import TanksPage from "@/pages/fuel/TanksPage";
@@ -68,3 +69,4 @@ export const routes = [
   { path: "/", element: <Navigate to="/dashboard" replace /> },
   { path: "*", element: <Navigate to="/dashboard" replace /> },
 ];
+const empt = 34;
